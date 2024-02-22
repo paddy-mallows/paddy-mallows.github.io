@@ -1,0 +1,21 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+
+  "title": {
+    "text":"2018 LPI",
+    "subtitle": ["2000-2021, source: Economics Observatory"],
+    "color": "#FF1493"	
+  },
+
+  "width": 400,
+  "height": 2000,
+
+  "data": {"url": "https://raw.githubusercontent.com/paddy-mallows/paddy-mallows.github.io/main/econ_observ_trial.csv"},
+
+  "mark": "bar",
+ 
+  "encoding": {
+    "y": {"field": "country", "type": "nominal"},
+    "x": {"field": "score", "type": "quantitative", "title":null}
+  }
+}
