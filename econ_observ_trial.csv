@@ -1,161 +1,161 @@
-﻿country,score
-Germany,4.20
-Sweden,4.05
-Belgium,4.04
-Austria,4.03
-Japan,4.03
-Netherlands,4.02
-Singapore,4.00
-Denmark,3.99
-United Kingdom,3.99
-Finland,3.97
-United Arab Emirates,3.96
-"Hong Kong SAR, China",3.92
-Switzerland,3.90
-United States,3.89
-New Zealand,3.88
-France,3.84
-Spain,3.83
-Australia,3.75
-Italy,3.74
-Canada,3.73
-Norway,3.70
-Czech Republic,3.68
-Portugal,3.64
-Luxembourg,3.63
-"Korea, Rep.",3.61
-China,3.61
-"Taiwan, China",3.60
-Poland,3.54
-Ireland,3.51
-Qatar,3.47
-Hungary,3.42
-Thailand,3.41
-South Africa,3.38
-Chile,3.32
-Slovenia,3.31
-Estonia,3.31
-Israel,3.31
-Panama,3.28
-Viet nam,3.27
-Iceland,3.23
-Malaysia,3.22
-Greece,3.20
-Oman,3.20
-India,3.18
-Cyprus,3.15
-Indonesia,3.15
-Turkey,3.15
-Romania,3.12
-Croatia,3.10
-Côte d'Ivoire,3.08
-Mexico,3.05
-Bulgaria,3.03
-Slovak Republic,3.03
-Lithuania,3.02
-Saudi Arabia,3.01
-Brazil,2.99
-Rwanda,2.97
-Colombia,2.94
-Bahrain,2.93
-Philippines,2.90
-Argentina,2.89
-Ecuador,2.88
-Kuwait,2.86
-"Iran, Islamic Rep.",2.85
-Serbia,2.84
-Ukraine,2.83
-"Egypt, Arab Rep.",2.82
-Kenya,2.81
-Malta,2.81
-Latvia,2.81
-Kazakhstan,2.81
-Bosnia and Herzegovina,2.81
-Costa Rica,2.79
-Paraguay,2.78
-Russian Federation,2.76
-Benin,2.75
-Montenegro,2.75
-Mauritius,2.73
-Lebanon,2.72
-Brunei Darussalam,2.71
-"Macedonia, FYR",2.70
-Lao PDR,2.70
-Peru,2.69
-Jordan,2.69
-Uruguay,2.69
-Maldives,2.67
-Dominican Republic,2.66
-Albania,2.66
-São Tomé and Principe,2.65
-Djibouti,2.63
-Burkina Faso,2.62
-Armenia,2.61
-Honduras,2.60
-Sri Lanka,2.60
-Cameroon,2.60
-Mali,2.59
-Malawi,2.59
-Cambodia,2.58
-Uzbekistan,2.58
-Bangladesh,2.58
-El Salvador,2.58
-Uganda,2.58
-Belarus,2.57
-Solomon Islands,2.57
-Tunisia,2.57
-Ghana,2.57
-Comoros,2.56
-Kyrgyz Republic,2.55
-Morocco,2.54
-Nigeria,2.53
-Zambia,2.53
-"Bahamas, The",2.53
-Jamaica,2.52
-Nepal,2.51
-"Congo, Rep.",2.49
-Moldova,2.46
-Algeria,2.45
-Togo,2.45
-Georgia,2.44
-"Congo, Dem. Rep.",2.43
-Sudan,2.43
-Pakistan,2.42
-Chad,2.42
-Trinidad and Tobago,2.42
-Guatemala,2.41
-Turkmenistan,2.41
-"Gambia, The",2.40
-Madagascar,2.39
-Guinea-Bissau,2.39
-Mongolia,2.37
-Bolivia,2.36
-Guyana,2.36
-Fiji,2.35
-Tajikistan,2.34
-Mauritania,2.33
-Equatorial Guinea,2.32
-Myanmar,2.30
-Syrian Arab Republic,2.30
-Lesotho,2.28
-"Yemen, Rep.",2.27
-Senegal,2.25
-"Venezuela, RB",2.23
-Liberia,2.23
-Somalia,2.21
-Guinea,2.20
-Cuba,2.20
-Iraq,2.18
-Papua New Guinea,2.17
-Bhutan,2.17
-Gabon,2.16
-Central African Republic,2.15
-Zimbabwe,2.12
-Haiti,2.11
-Libya,2.11
-Eritrea,2.09
-Sierra Leone,2.08
-Niger,2.07
-Burundi,2.06
-Angola,2.05
-Afghanistan,1.95
+﻿country,score,continent
+Germany,4.20,Europe
+Sweden,4.05,Europe
+Belgium,4.04,Europe
+Austria,4.03,Europe
+Japan,4.03,Asia
+Netherlands,4.02,Europe
+Singapore,4.00,Asia
+Denmark,3.99,Europe
+United Kingdom,3.99,Europe
+Finland,3.97,Europe
+United Arab Emirates,3.96,MENA
+"Hong Kong SAR, China",3.92,Asia
+Switzerland,3.90,Europe
+United States,3.89,North America
+New Zealand,3.88,Oceania
+France,3.84,Europe
+Spain,3.83,Europe
+Australia,3.75,Oceania
+Italy,3.74,Europe
+Canada,3.73,Americas
+Norway,3.70,Europe
+Czech Republic,3.68,Europe
+Portugal,3.64,Europe
+Luxembourg,3.63,Europe
+"Korea, Rep.",3.61,Asia
+China,3.61,Asia
+"Taiwan, China",3.60,Asia
+Poland,3.54,Europe
+Ireland,3.51,Europe
+Qatar,3.47,Asia
+Hungary,3.42,Europe
+Thailand,3.41,Asia
+South Africa,3.38,Africa
+Chile,3.32,Asia
+Slovenia,3.31,Europe
+Estonia,3.31,Europe
+Israel,3.31,MENA
+Panama,3.28,Americas
+Viet nam,3.27,Asia
+Iceland,3.23,Europe
+Malaysia,3.22,Asia
+Greece,3.20,Europe
+Oman,3.20,MENA
+India,3.18,Asia
+Cyprus,3.15,Europe
+Indonesia,3.15,Asia
+Turkey,3.15,Europe
+Romania,3.12,Europe
+Croatia,3.10,Europe
+Côte d'Ivoire,3.08,Africa
+Mexico,3.05,Americas
+Bulgaria,3.03,Europe
+Slovak Republic,3.03,Europe
+Lithuania,3.02,Europe
+Saudi Arabia,3.01,MENA
+Brazil,2.99,Americas
+Rwanda,2.97,Africa
+Colombia,2.94,Americas
+Bahrain,2.93,MENA
+Philippines,2.90,Asia
+Argentina,2.89,Americas
+Ecuador,2.88,Americas
+Kuwait,2.86,MENA
+"Iran, Islamic Rep.",2.85,MENA
+Serbia,2.84,Europe
+Ukraine,2.83,Europe
+"Egypt, Arab Rep.",2.82,MENA
+Kenya,2.81,Africa
+Malta,2.81,Europe
+Latvia,2.81,Europe
+Kazakhstan,2.81,Asia
+Bosnia and Herzegovina,2.81,Europe
+Costa Rica,2.79,Americas
+Paraguay,2.78,Americas
+Russian Federation,2.76,Europe
+Benin,2.75,Africa
+Montenegro,2.75,Europe
+Mauritius,2.73,Africa
+Lebanon,2.72,MENA
+Brunei Darussalam,2.71,Asia
+"Macedonia, FYR",2.70,Europe
+Lao PDR,2.70,Asia
+Peru,2.69,Americas
+Jordan,2.69,MENA
+Uruguay,2.69,Americas
+Maldives,2.67,Africa
+Dominican Republic,2.66,Americas
+Albania,2.66,Europe
+São Tomé and Principe,2.65,Africa
+Djibouti,2.63,Africa
+Burkina Faso,2.62,Africa
+Armenia,2.61,Europe
+Honduras,2.60,Americas
+Sri Lanka,2.60,Asia
+Cameroon,2.60,Africa
+Mali,2.59,Africa
+Malawi,2.59,Africa
+Cambodia,2.58,Asia
+Uzbekistan,2.58,Asia
+Bangladesh,2.58,Asia
+El Salvador,2.58,Americas
+Uganda,2.58,Africa
+Belarus,2.57,Europe
+Solomon Islands,2.57,Oceania
+Tunisia,2.57,MENA
+Ghana,2.57,Africa
+Comoros,2.56,Africa
+Kyrgyz Republic,2.55,Asia
+Morocco,2.54,MENA
+Nigeria,2.53,MENA
+Zambia,2.53,MENA
+"Bahamas, The",2.53,Americas
+Jamaica,2.52,Americas
+Nepal,2.51,Asia
+"Congo, Rep.",2.49,Africa
+Moldova,2.46,Europe
+Algeria,2.45,MENA
+Togo,2.45,Africa
+Georgia,2.44,Europe
+"Congo, Dem. Rep.",2.43,Africa
+Sudan,2.43,Africa
+Pakistan,2.42,Asia
+Chad,2.42,Africa
+Trinidad and Tobago,2.42,Americas
+Guatemala,2.41,Americas
+Turkmenistan,2.41,Asia
+"Gambia, The",2.40,Africa
+Madagascar,2.39,Africa
+Guinea-Bissau,2.39,Africa
+Mongolia,2.37,Asia
+Bolivia,2.36,Americas
+Guyana,2.36,Americas
+Fiji,2.35,Oceania
+Tajikistan,2.34,Asia
+Mauritania,2.33,MENA
+Equatorial Guinea,2.32,Africa
+Myanmar,2.30,Asia
+Syrian Arab Republic,2.30,MENA
+Lesotho,2.28,Africa
+"Yemen, Rep.",2.27,MENA
+Senegal,2.25,Africa
+"Venezuela, RB",2.23,Americas
+Liberia,2.23,Africa
+Somalia,2.21,Africa
+Guinea,2.20,Africa
+Cuba,2.20,Americas
+Iraq,2.18,MENA
+Papua New Guinea,2.17,Oceania
+Bhutan,2.17,Asia
+Gabon,2.16,Africa
+Central African Republic,2.15,Africa
+Zimbabwe,2.12,Africa
+Haiti,2.11,Americas
+Libya,2.11,MENA
+Eritrea,2.09,Africa
+Sierra Leone,2.08,Africa
+Niger,2.07,Africa
+Burundi,2.06,Africa
+Angola,2.05,Africa
+Afghanistan,1.95,Asia
