@@ -1,0 +1,56 @@
+# // FIRST BATCH DOWNLOADER
+
+
+# 1. PREPARATORY STEPS - ACCESS PACKAGES WE NEED
+
+## // The "requests" package, for opening web sites and retrieving information:
+import requests
+
+## // The "json" package, for helping us make JSON easier to read:
+import json
+
+
+## ------
+
+# 2. SETTING UP THE ELEMENTS WE NEED IN OUR LOOP:
+
+# // Pick the series that I want:
+fred_series = ['GDP', 'PCEPI', 'CPIAUCSL', 'PAYEMS', 'DGS10', 'INDPRO', 'UNRATE', 'T10YIE']
+
+# // Set the base url:
+url_base = "https://api.stlouisfed.org/fred/series/observations?series_id={}&api_key=22ee7a76e736e32f54f5df0a7171538d&file_type=json"
+
+# // Set a base fileName:
+file_base = "data_FRED-{}.json"
+
+## ------
+
+# 3. USING THE ABOVE TO RUN A LOOP:
+
+# // Begin a loop, dealing with each series, one by one:
+for i in fred_series:
+
+    # // Print some text to make clear when iteration starts and ends:
+    # // This is not necessary but can be helpful, esp with long loops:
+    print("------Iteration Starts--------")
+    print(i)
+
+    # // Build the URL for this iteration of the loop, print it to check what we are getting:
+    URL = url_base.format(i)
+    print(URL)
+
+    # // Request the html from the URL, and format as JSON:
+    data = requests.get(URL).json()
+
+    # // Build the filename. Print it to check what we are getting:
+    fileName = file_base.format(i)
+    print('Series we are downloading is', i)
+    print('Data saved to', fileName)
+
+    # /// Save the file:
+    with open(fileName, 'w', encoding='utf-8') as f:
+        json.dump(data, f, ensure_ascii=False, indent=4)
+
+
+    # // Add some white space to our output. (This is purely so we can see what is happening below clearly)
+    print("------Iteration Ends--------\n")
