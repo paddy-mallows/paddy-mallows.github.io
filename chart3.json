@@ -1,0 +1,21 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+
+  "title": {
+    "text":"Brazilian GDP Growth",
+    "subtitle": ["QoQ4 % Growth", "Source: ONS via ECO-API"],
+    "color": "#FF1493"	
+  },
+
+  "width": 400,
+  "height": 300,
+
+  "data": {"url": "https://api.economicsobservatory.com/bra/grow?vega"},
+
+  "mark": "line",
+
+  "encoding": {
+    "x": {"field": "date", "type": "temporal"},
+    "y": {"field": "value", "type": "quantitative", "title":null}
+  }
+}
